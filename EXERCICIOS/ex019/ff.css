@@ -1,0 +1,21 @@
+
+body{
+    background-color: rgb(84, 107, 107);
+
+}
+h1{
+
+    color: aquamarine;
+}
+h1#principal{
+    text-align: center;
+    background-color: rgb(53, 230, 171);
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px ;
+}
+
+
+.basico{
+    color: rgb(255, 240, 240);
+}

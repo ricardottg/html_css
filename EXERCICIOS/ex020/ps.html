@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+
+    <style>
+        body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgba(156, 156, 156, 0.63);
+        }
+        div > p {
+            display: none;
+            
+        }
+div:hover > p{
+display:  block;
+color: aqua;
+background-color: black;
+width: 200px;
+height: 200px;
+
+}
+
+div:hover{
+    color: rgb(118, 240, 48);
+}
+h1{
+    background-color: cornflowerblue;
+    text-align: center;
+    text-decoration: double;
+}
+    </style>
+</head>
+<body>
+    
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+        passe o mouse
+        <p>TEXTO escondido....
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam temporibus maiores nobis delectus tempora reiciendis rerum, omnis accusamus dolore deleniti labore laborum enim qui culpa sunt nesciunt magni totam libero?
+        </p>
+    </div>
+</body>
+</html>
